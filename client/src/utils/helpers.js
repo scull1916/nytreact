@@ -1,6 +1,6 @@
 var axios = require('axios');
 
-var APIKey = 'fa04f54aaf1a421fac8f1fdf734fbd3e'; //replace API with .env
+var APIKey = process.env.NYT_API_KEY; //replace API with .env
 
 var helpers = {
 
